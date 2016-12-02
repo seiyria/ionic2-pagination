@@ -3,17 +3,20 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "target": "es5",
-    "module": "commonjs",
+    "module": "es2015",
     "moduleResolution": "node",
     "removeComments": true,
     "sourceMap": false,
-    "outDir": "bundle",
     "declaration": true
   },
   "typeRoots": [
     "../node_modules/@types"
   ],
+  "exclude": [
+    "node_modules",
+    "bundle"
+  ],
   "files": [
-    "src/pagination.component.ts"
+    "index.ts"
   ]
 }
