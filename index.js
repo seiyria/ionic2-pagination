@@ -1,2 +1,2 @@
-exports.Pagination = require('./dist/pagination.component').Pagination;
-exports.PaginationComponent = require('./dist/pagination.component').PaginationComponent;
+exports.Pagination = require('./bundle/pagination.component').Pagination;
+exports.PaginationComponent = require('./bundle/pagination.component').PaginationComponent;
