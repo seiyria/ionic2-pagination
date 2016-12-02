@@ -10,6 +10,9 @@
     "outDir": "bundle",
     "declaration": true
   },
+  "typeRoots": [
+    "../node_modules/@types"
+  ],
   "files": [
     "src/pagination.component.ts"
   ]
