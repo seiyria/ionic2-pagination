@@ -1,6 +1,6 @@
 {
   "name": "ionic2-pagination",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "An small pagination component for Ionic 2.",
   "module": "index.js",
   "typings": "index.d.ts",
