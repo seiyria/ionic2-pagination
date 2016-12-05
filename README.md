@@ -8,14 +8,17 @@ On mobile, this component would be mostly useless. If you're using Ionic 2 to bu
 
 ## Sample Usage
 ```html
-<pagination
+<ionc-pagination
   color="light"
   (clickBeginning)="changePage(1)"
   (clickPrevious)="changePage(paginationInfo.page - 1)"
   (clickNext)="changePage(paginationInfo.page + 1)"
   (clickEnd)="changePage(paginationInfo.pageCount)"
-  [pagination]="paginationInfo"></pagination>
+  [pagination]="paginationInfo"></ionc-pagination>
 ```
+
+### Why `ionc`?
+Short for "Ionic Compatible" - I don't want to collide with them in case they ever create their own pagination component.
 
 ## Pagination Object Structure
 ```

@@ -9,7 +9,7 @@ export class Pagination {
 }
 
 @Component({
-  selector: 'pagination',
+  selector: 'ionc-pagination',
   template: `
   <ion-grid>
     <ion-row>

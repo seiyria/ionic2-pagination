@@ -67,7 +67,7 @@ export var PaginationComponent = (function () {
     ], PaginationComponent.prototype, "clickEnd", void 0);
     PaginationComponent = __decorate([
         Component({
-            selector: 'pagination',
+            selector: 'ionc-pagination',
             template: "\n  <ion-grid>\n    <ion-row>\n      <ion-col text-left width-10>\n        <button ion-button (click)=\"clickBeginning.next()\" icon-only [color]=\"color\" [disabled]=\"pagination.page === 1\">\n          <ion-icon name=\"rewind\"></ion-icon>\n        </button>\n      </ion-col>\n      <ion-col text-left width-10>\n        <button ion-button (click)=\"clickPrevious.next()\" icon-only [color]=\"color\" [disabled]=\"pagination.page === 1\">\n          <ion-icon name=\"arrow-dropleft\"></ion-icon>\n        </button>\n      </ion-col>\n      <ion-col pagination-center-text>{{ currentPageItemsMin }}-{{ currentPageItemsMax }} of {{ maxItems }}</ion-col>\n      <ion-col text-right width-10>\n        <button ion-button (click)=\"clickNext.next()\" icon-only [color]=\"color\" [disabled]=\"pagination.page === pagination.pageCount\">\n          <ion-icon name=\"arrow-dropright\"></ion-icon>\n        </button>\n      </ion-col>\n      <ion-col text-right width-10>\n        <button ion-button (click)=\"clickEnd.next()\" icon-only [color]=\"color\" [disabled]=\"pagination.page === pagination.pageCount\">\n          <ion-icon name=\"fastforward\"></ion-icon>\n        </button>\n      </ion-col>\n    </ion-row>\n  </ion-grid>\n",
             styles: ["\n    [pagination-center-text] {\n      display: flex;\n      align-items: center;\n      justify-content: center;\n    }\n  "]
         }), 
