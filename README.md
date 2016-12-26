@@ -6,6 +6,9 @@ On mobile, this component would be mostly useless. If you're using Ionic 2 to bu
 
 # How to use?
 
+## Install
+`npm install ionic2-pagination`
+
 ## Sample Usage
 ```html
 <ionc-pagination
@@ -15,6 +18,14 @@ On mobile, this component would be mostly useless. If you're using Ionic 2 to bu
   (clickNext)="changePage(paginationInfo.page + 1)"
   (clickEnd)="changePage(paginationInfo.pageCount)"
   [pagination]="paginationInfo"></ionc-pagination>
+```
+
+```js
+import { PaginationComponent } from 'ionic2-pagination';
+// add PaginationComponent to `declarations`
+
+import { Pagination } from 'ionic2-pagination';
+// if you use typescript
 ```
 
 ### Why `ionc`?
