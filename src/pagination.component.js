@@ -75,3 +75,4 @@ export var PaginationComponent = (function () {
     ], PaginationComponent);
     return PaginationComponent;
 }());
+//# sourceMappingURL=pagination.component.js.map

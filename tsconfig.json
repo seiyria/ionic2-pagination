@@ -6,7 +6,7 @@
     "module": "es2015",
     "moduleResolution": "node",
     "removeComments": true,
-    "sourceMap": false,
+    "sourceMap": true,
     "declaration": true
   },
   "typeRoots": [
