@@ -28,6 +28,9 @@ import { Pagination } from 'ionic2-pagination';
 // if you use typescript
 ```
 
+## Note
+Make sure you're using a bundler or compiler such as tsc, webpack, or babel. This uses exports which are not finalized by the spec yet.
+
 ### Why `ionc`?
 Short for "Ionic Compatible" - I don't want to collide with them in case they ever create their own pagination component.
 
